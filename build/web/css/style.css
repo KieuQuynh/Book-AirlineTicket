@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2019, 9:18:26 PM
+    Author     : admin
+*/
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+.myError {
+    font-size: 13px;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.container {
+    width:1535px;
+}
+
+.nav {
+   
+    background-color: #000000;
+    padding-left: 123px;
+}
+
+ul.menu {
+    overflow: auto;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+ 
+   
+}
+
+.itemLogo.register {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/register.png);
+}
+
+.itemLogo.logout {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/quit.png);
+}
+
+.itemLogo.user {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/quit.png);
+}
+
+
+.itemLogo.login {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/home.png);
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    float: right;
+    padding-top: 20px;
+   padding-right: 91px;
+   color:#ffffff;
+}
+.title {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    font-size: 30px;
+    margin-left:120px;
+    padding-left: 134px;
+    padding-top: 66px;
+    color:#ffffff;
+    
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color:#1970DE;
+    padding-top: 30px;
+}
+
+.active {
+    
+    background:#ffffff;
+    color:#000000 !important;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul.menu li a ,ul.menu li span{
+    color:#ffffff;
+    font-weight: bolder;
+    display:inline-block;
+    padding: 15px 40px;
+    border-radius: 3px;
+}
+
+.logo a {
+    color:#ffffff;
+}
